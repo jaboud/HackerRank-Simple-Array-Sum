@@ -19,6 +19,8 @@ namespace HackerRank_Simple_Array_Sum
             }
             //Prints out the sum of arrays.
             Console.WriteLine(sum);
+            //To prevent the console from automatically closing upon completion of program
+            Console.Read();
         }
     }
 }
