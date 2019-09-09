@@ -12,7 +12,11 @@ namespace HackerRank_Simple_Array_Sum
             string[] arr = Console.ReadLine().Split(' ');
             //Returns the sum value
             long sum = 0;
-
+            //For loop calculates the sum of the array and convert its to Int64 type. It also grabs array of sub strings.
+            for (int i = 0; i < n; i++)
+            {
+                sum += Convert.ToInt64(arr[i]);
+            }
             Console.WriteLine("Hello World!");
         }
     }
