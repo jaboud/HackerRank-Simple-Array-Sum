@@ -17,7 +17,8 @@ namespace HackerRank_Simple_Array_Sum
             {
                 sum += Convert.ToInt64(arr[i]);
             }
-            Console.WriteLine("Hello World!");
+            //Prints out the sum of arrays.
+            Console.WriteLine(sum);
         }
     }
 }
